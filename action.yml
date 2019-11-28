@@ -1,0 +1,15 @@
+name: 'PHP Security Checker'
+description: 'php-security-checker'
+branding:
+  icon: 'check-circle'
+  color: 'red'
+inputs:
+  composer-lock:
+    description: 'Path to composer.lock'
+    required: false
+    default: './composer.lock'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.composer-lock }}
