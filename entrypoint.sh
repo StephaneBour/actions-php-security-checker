@@ -19,4 +19,4 @@ if [ ! -f "${COMPOSER_LOCK}" ]; then
   exit 2
 fi
 
-/security-checker "${COMPOSER_LOCK}"
+/security-checker security:check "${COMPOSER_LOCK}"
