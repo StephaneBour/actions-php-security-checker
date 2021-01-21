@@ -4,7 +4,7 @@ set -e
 PHP_FULL_VERSION=$(php -r 'echo phpversion();')
 
 if [ -z "$1" ]; then
-  COMPOSER_LOCK="."
+  COMPOSER_LOCK="./composer.lock"
 else
   COMPOSER_LOCK="$1"
 fi
