@@ -6,9 +6,9 @@ Based on [sensiolabs/security-checker](https://github.com/sensiolabs/security-ch
 
 ## Inputs
 
-### `composer-lock`
+### `composer.lock`
 
-The folder to control. Default `"./composer-lock"`.
+The folder to control. Default `"./composer.lock"`.
 
 ## Example usage
 
@@ -16,5 +16,5 @@ The folder to control. Default `"./composer-lock"`.
 - name: PHP Security Checker
   uses: StephaneBour/actions-php-security-checker@1.1
   with:
-    composer-lock: './composer-lock'
+    composer-lock: './composer.lock'
 ```
