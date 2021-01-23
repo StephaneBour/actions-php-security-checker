@@ -14,7 +14,7 @@ The folder to control. Default `"./composer-lock"`.
 
 ```yaml
 - name: PHP Security Checker
-  uses: StephaneBour/actions-php-security-checker@1.0
+  uses: StephaneBour/actions-php-security-checker@1.1
   with:
     composer-lock: './composer-lock'
 ```
