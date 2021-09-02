@@ -1,4 +1,4 @@
-FROM php:7.4-cli
+FROM php:8.0-cli
 
 LABEL version="1.1"
 LABEL repository="https://github.com/StephaneBour/actions-php-security-checker"
